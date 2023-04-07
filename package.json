@@ -1,5 +1,6 @@
 {
-  "private": true,
+  "name": "@ssoon/vue-autocomplete",
+  "private": false,
   "scripts": {
     "postinstall": "lerna bootstrap",
     "start": "concurrently \"npm:storybook:js\" \"npm:storybook:vue\"",
@@ -61,5 +62,6 @@
     "vue": "^2.6.10",
     "vue-loader": "^15.7.0",
     "vue-template-compiler": "^2.6.10"
-  }
+  },
+  "version": "2.4.4"
 }
