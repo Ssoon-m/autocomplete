@@ -59,7 +59,7 @@ class AutocompleteCore {
 
   handleKeyDown = event => {
     const { key } = event
-
+    if (event.isComposing) return
     switch (key) {
       case 'Up': // IE/Edge
       case 'Down': // IE/Edge
